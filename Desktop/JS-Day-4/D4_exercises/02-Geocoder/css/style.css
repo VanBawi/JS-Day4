@@ -1,2 +1,19 @@
 /* TODO: Put your CSS code in here */
 
+body{
+    background-color: #e0ffff;
+    margin :100px;
+}
+.container, h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.box {
+    line-height: 30px;
+}
+form{
+    padding: 30px;
+}
+
