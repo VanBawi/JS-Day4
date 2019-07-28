@@ -11,11 +11,11 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/' do
-
+    erb :home
   end
 
   post '/sessions', provides: [:json] do
-
+    
   end
 
   get '/sessions/:id/games', provides: [:json] do
@@ -35,4 +35,3 @@ class ApplicationController < Sinatra::Base
   end
 end
 
-end
