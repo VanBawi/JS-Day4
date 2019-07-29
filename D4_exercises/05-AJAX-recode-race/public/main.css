@@ -1,0 +1,24 @@
+.racer_table td {
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    padding :2px;
+  }
+  .racer_table td.active {
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  #player1_race td.active {
+    background-image: url("images/player_1.png");
+    padding :2px;
+  }
+  #player2_race td.active {
+    background-image: url("images/player_2.png");
+    padding :2px;
+  }
+
+  .finishline{
+    background-image: url("images/finish.jpeg");
+  }
+}
